@@ -2,6 +2,12 @@
 
 Python script to compute **Velocity-style metrics** (like Dev 360) using the GitHub API: **Releases** and **PR Merges**.
 
+## What this replicates (Dev 360 Velocity)
+
+The script produces data that can drive a dashboard similar to the Dev 360 Velocity view: **RELEASES** (target, R30D, current month projection, cumulative and monthly history) and **PR MERGES** (same metrics, optionally filtered by author).
+
+![Dev 360 Velocity dashboard — RELEASES and PR MERGES](dev360-velocity-screenshot.png)
+
 ## Is there an OOB report from GitHub?
 
 No. GitHub does not provide an out-of-the-box "Velocity" report with targets, R30D, and projections. You get:
